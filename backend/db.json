@@ -1,0 +1,102 @@
+{
+  "resources": [
+    {
+      "id": "1",
+      "title": "Understanding Anxiety",
+      "description": "An article explaining the nature of anxiety disorders and coping strategies.",
+      "link": "https://example.com/understanding-anxiety",
+      "category": "Articles"
+    },
+    {
+      "id": "2",
+      "title": "Mindfulness Meditation Guide",
+      "description": "A comprehensive guide to practicing mindfulness meditation for mental well-being.",
+      "link": "https://example.com/mindfulness-meditation",
+      "category": "Guides"
+    },
+    {
+      "id": "3",
+      "title": "Coping with Depression",
+      "description": "Video series on recognizing and managing symptoms of depression.",
+      "link": "https://example.com/coping-with-depression",
+      "category": "Videos"
+    }
+  ],
+  "forums": [
+    {
+      "id": "1",
+      "title": "General Support",
+      "posts": [
+        {
+          "id": "1",
+          "user_id": "1",
+          "content": "I'm feeling overwhelmed. Can anyone relate?",
+          "timestamp": "2024-10-16T10:00:00Z"
+        },
+        {
+          "id": "2",
+          "user_id": "2",
+          "content": "You're not alone. It's okay to seek help.",
+          "timestamp": "2024-10-16T10:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Coping Strategies",
+      "posts": [
+        {
+          "id": "1",
+          "user_id": "3",
+          "content": "I’ve been using journaling to cope. It really helps!",
+          "timestamp": "2024-10-16T11:00:00Z"
+        }
+      ]
+    }
+  ],
+  "professionals": [
+    {
+      "id": "1",
+      "name": "Dr. Sarah Johnson",
+      "specialty": "Therapist",
+      "location": "New York, NY",
+      "contact": "sarah.johnson@example.com",
+      "bio": "Experienced therapist specializing in anxiety and depression."
+    },
+    {
+      "id": "2",
+      "name": "John Smith, LCSW",
+      "specialty": "Counselor",
+      "location": "Los Angeles, CA",
+      "contact": "john.smith@example.com",
+      "bio": "Licensed clinical social worker with a focus on trauma-informed care."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "email": "alice@example.com",
+      "location": "San Francisco, CA",
+      "contact": "555-1234",
+      "profile_created": "2024-10-01T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "email": "bob@example.com",
+      "location": "Miami, FL",
+      "contact": "555-5678",
+      "profile_created": "2024-10-02T09:00:00Z"
+    },
+    {
+      "id": "684e",
+      "name": "ian mbugua",
+      "email": "mbugua@2021",
+      "location": "westlands",
+      "contacts": "0791223750",
+      "title": "stress",
+      "description": "family matters"
+    }
+  ]
+}

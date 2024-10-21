@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0; /* Light background color for the body */
+}
+
+.login-image {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    width: 300px; /* Set the desired width */
+    display: block; /* Centers the image block */
+    margin: 20px auto; /* Centers the image horizontally */
+}
+
+nav {
+    background: #4A90E2; /* Softer blue for navbar */
+    color: white; /* White text */
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #FFD700; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    background: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+form button {
+    margin: 10px 0;
+    padding: 10px;
+    background: #5CB85C; /* Green background for buttons */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #4CAE4C; /* Darker green on hover */
+}

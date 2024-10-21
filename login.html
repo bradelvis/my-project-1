@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Mental Health Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<img src = "assest/image1.jpeg" alt="login page" class = "login-image "  >
+    <h2>User Login</h2>
+    <form id="userForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <input type="text" id="contacts" placeholder="Contacts" required>
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <button type="submit">Submit</button>
+        <button type="button" onclick="window.location.href='index.html'">Go to Homepage</button>
+    </form>
+    <div id="userList"></div>
+    <script src="script.js"></script>
+</body>
+</html>
