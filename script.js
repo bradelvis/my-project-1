@@ -10,7 +10,7 @@ document.getElementById('userForm').addEventListener('submit', function(e) {
         description: document.getElementById('description').value
     };
 
-    fetch('http://localhost:3000/users', {
+    fetch('https://my-project-1-5mxp.onrender.com/users', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -26,7 +26,7 @@ document.getElementById('userForm').addEventListener('submit', function(e) {
 });
 
 function loadUsers() {
-    fetch('http://localhost:3000/users')
+    fetch('https://my-project-1-5mxp.onrender.com/users')
     .then(response => response.json())
     .then(data => {
         const userList = document.getElementById('userList');
@@ -46,7 +46,7 @@ function loadUsers() {
 }
 
 function deleteUser(id) {
-    fetch(`http://localhost:3000/users/${id}`, {
+    fetch(`https://my-project-1-5mxp.onrender.com/users/${id}`, {
         method: 'DELETE'
     })
     .then(() => loadUsers())
